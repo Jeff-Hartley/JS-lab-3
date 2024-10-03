@@ -1,0 +1,31 @@
+:root {
+    --main-color : rgb(222, 240, 190);
+    --secondary-color : rgb(117, 60, 13);
+    --tertiary-color : rgb(71, 97, 23);
+    --fourth-color : rgb(58, 231, 15);
+    --large-font-size : 45px;
+    
+
+
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: var(--large-font-size);
+}
+
+p {
+    color: var(--tertiary-color);
+    text-align: center;
+}
+
+hr {
+    color: var(--fourth-color);
+    width: 30%;
+}
